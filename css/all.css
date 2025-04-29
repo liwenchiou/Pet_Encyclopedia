@@ -1,0 +1,149 @@
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+  outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+  text-decoration: none;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  width: 100%;
+  border: 1px solid black;
+  background-color: #fac2b4;
+}
+
+.header {
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.header > h1 {
+  font-size: 50px;
+  align-self: center;
+  color: #3c3c3c;
+}
+
+.logo {
+  width: 100px;
+}
+
+.logo > img {
+  display: block;
+}
+
+.menu-bar {
+  display: block;
+  display: flex;
+  padding-right: 20px;
+  gap: 2px;
+}
+
+.menu-bar > li {
+  display: block;
+}
+
+.menu-btn {
+  padding: 10px 10px 10px 10px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  display: block;
+  text-decoration: none;
+  background-color: #3c3c3c;
+  color: #F9FAE1;
+}
+.menu-btn:hover {
+  color: #F04C25;
+}
+
+.contant {
+  margin: 0 auto;
+  width: 90%;
+  border: 1px solid black;
+  background-color: yellow;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+footer {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.footer {
+  justify-content: flex-end;
+}
+
+.footer > p, .footer > p > a {
+  font-size: 10px;
+  text-align: center;
+  margin-bottom: 5px;
+  text-decoration: none;
+  color: #3c3c3c;
+}
+
+@media (min-width: 1920px) {
+  html,
+  body {
+    max-width: 1920px;
+  }
+}
+@media (min-height: 1080px) {
+  html,
+  body {
+    max-height: 1080px;
+  }
+}/*# sourceMappingURL=all.css.map */
