@@ -1,5 +1,7 @@
+@charset "UTF-8";
 /* http://meyerweb.com/eric/tools/css/reset/ */
 /* v1.0 | 20080212 */
+@import url("https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -82,10 +84,9 @@ table {
   position: absolute;
   top: 0;
   left: 0;
-  right: 0px;
   font-size: 150px;
   font-weight: bold;
-  text-align: right;
+  text-align: center;
   -webkit-text-stroke: 5px #fff;
   color: transparent;
   background: url("https://img.freepik.com/premium-vector/cheerful-character-stands-with-multiple-pets-including-dogs-cat-bird-bright-outdoor-setting-customizable-cartoon-illustration-pet-care_585735-37870.jpg?w=2000") no-repeat center;
@@ -93,6 +94,34 @@ table {
   background-clip: text;
 }
 
-.span {
-  margin-bottom: 50px;
+.title_str {
+  font-family: "Noto Sans";
+}
+
+.nav-ul {
+  display: flex;
+}
+
+nav {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.btn {
+  margin-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1px solid black;
+  font-size: 20px;
+  text-decoration: none;
+  line-height: 1.5;
+}
+
+.card-text {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2; /* 限制顯示 2 行 */
+  overflow: hidden;
 }/*# sourceMappingURL=all.css.map */
