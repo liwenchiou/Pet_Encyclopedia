@@ -1,116 +1,42 @@
-$--bg-color: #F04C25; // 原始藍色
-
-body {
+.banner {
+    // margin-top: 50px;
     width: 100%;
-    border: 1px solid black;
-    background-color: lighten($--bg-color,30%);
+    height: 300px;
+    background: url('https://img.freepik.com/premium-vector/cheerful-character-stands-with-multiple-pets-including-dogs-cat-bird-bright-outdoor-setting-customizable-cartoon-illustration-pet-care_585735-37870.jpg?w=2000') no-repeat center;
+    background-size: cover;
+    position: relative;
 }
 
-.header {
-    margin: 0 auto;
-    width: 90%;
-    // padding: 20px;
-    // border: 1px solid black;
-    // height: 100px;
-    // background-color: blue;
+.banner::before {
+    content: "";
     display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
-    margin-bottom: 20px;
-}
-.header>h1{
-    font-size: 50px;
-    align-self:center;
-    color:#3c3c3c;
-}
-
-.logo {
-    width: 100px;
-    // border: 1px solid black;
-}
-
-.logo>img{
-    display: block;
-}
-
-.menu-bar{
-    display: block;
-    display: flex;
-    padding-right: 20px;
-    // border: 1px solid black;
-    gap: 2px;
-    
-}
-
-.menu-bar>li {
-    // color: red;
-    display: block;
-    
-}
-
-.menu-btn{
-    padding:10px 10px 10px 10px;
-    margin-bottom: 5px;
-    border-radius: 10px;
-    display: block;
-    text-decoration: none;
-    background-color:#3c3c3c;
-    color: #F9FAE1;
-
-    &:hover{
-        color: #F04C25;
-    }
-}
-
-
-.contant {
-    margin: 0 auto;
-    width: 90%;
-    border: 1px solid black;
-    // height: 200px;
-    background-color: yellow;
-    padding: 10px;
-    margin-bottom: 20px;
-}
-
-footer {
-    margin: 0 auto;
-    width: 90%;
-    // border: 1px solid black;
-    // height: 100px;
-    // padding: 10px;
-    // line-height: 1.5;
-    // background-color: red;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
 
 }
-.footer{
-// display: flex;
-// border: 1px solid black;
-justify-content: flex-end;
-// height: 200px;
-} 
-.footer>p,.footer>p>a{
-    font-size: 10px;
-    text-align: center;
-    margin-bottom: 5px;
-    // color: gray;
-    text-decoration: none;
-    color:#3c3c3c;
+
+.title {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(248, 2, 2, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0px;
+    font-size: 150px;
+    font-weight: bold;
+    text-align: right;
+    -webkit-text-stroke: 5px #fff;
+    color: transparent;
+    background: url('https://img.freepik.com/premium-vector/cheerful-character-stands-with-multiple-pets-including-dogs-cat-bird-bright-outdoor-setting-customizable-cartoon-illustration-pet-care_585735-37870.jpg?w=2000') no-repeat center;
+    background-size: cover;
+    background-clip: text;
 }
 
-
-@media (min-width: 1920px) {
-
-    html,
-    body {
-        max-width: 1920px;
-    }
-}
-
-@media (min-height: 1080px) {
-
-    html,
-    body {
-        max-height: 1080px;
-    }
+.span {
+    margin-bottom: 50px;
 }
